@@ -107,6 +107,12 @@ nav a:hover{
     max-width:500px;
     border-radius:30px;
     box-shadow:0 30px 60px rgba(0,0,0,.08);
+    transition:all .4s ease;
+}
+
+.hero-image img:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 40px 80px rgba(0,0,0,.15);
 }
 
 .btn{
@@ -189,7 +195,7 @@ nav a:hover{
     box-shadow:0 10px 30px rgba(0,0,0,.04);
 }
 
-/* LOVE */
+/* INTERESTS */
 
 .love-grid{
     display:grid;
@@ -243,30 +249,31 @@ footer{
 
 @media(max-width:900px){
 
-    .hero{
-        grid-template-columns:1fr;
-        text-align:center;
-    }
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+}
 
-    .hero-image{
-        order:-1;
-    }
+.hero-image{
+    order:-1;
+}
 
-    .hero-image img{
-        max-width:350px;
-    }
+.hero-image img{
+    max-width:350px;
+}
 
-    .hero-text h1{
-        font-size:4rem;
-    }
+.hero-text h1{
+    font-size:4rem;
+}
 
-    .title{
-        font-size:3rem;
-    }
+.title{
+    font-size:3rem;
+}
 
-    nav{
-        display:none;
-    }
+nav{
+    display:none;
+}
+
 }
 
 </style>
@@ -292,12 +299,12 @@ footer{
 
     <div class="hero-text">
 
-        <span>Welcome To My World</span>
+        <span>WELCOME TO MY WORLD</span>
 
         <h1>Yesica<br>Purba</h1>
 
         <p>
-            I am an aspiring Web Developer from Indonesia with a passion for technology, creativity, and meaningful digital experiences. I enjoy creating beautiful websites and continuously learning new things.
+            I am an aspiring Web Developer from Indonesia with a passion for technology, creativity, and meaningful digital experiences. I enjoy building beautiful websites and continuously learning new things.
         </p>
 
         <a href="#story" class="btn">Discover My Journey</a>
@@ -305,7 +312,16 @@ footer{
     </div>
 
     <div class="hero-image">
-        <img src="yesica.jpg" alt="Yesica Purba">
+
+        <a href="https://github.com/yesicacore021"
+           target="_blank"
+           title="Visit My GitHub">
+
+            <img src="https://raw.githubusercontent.com/yesicacore021/yesicacore021/main/photos%201.jpeg"
+                 alt="Yesica Purba">
+
+        </a>
+
     </div>
 
 </section>
@@ -318,7 +334,7 @@ footer{
     <div class="story">
 
         <p>
-            I graduated from SMK Swasta Teladan Siantar majoring in Software Engineering (RPL). During my studies, I developed a strong interest in web development and digital creativity. I love building websites that are not only functional but also visually appealing and meaningful.
+            I graduated from SMK Swasta Teladan Siantar majoring in Software Engineering (RPL). During my studies, I developed a strong interest in web development and digital creativity. I love creating websites that are functional, visually appealing, and meaningful.
         </p>
 
     </div>
@@ -339,7 +355,7 @@ footer{
         </p>
 
         <p style="margin-top:20px;color:#666;">
-            Focused on programming, web development, databases, and software design.
+            Focused on web development, programming, databases, and software design.
         </p>
 
     </div>
@@ -354,33 +370,18 @@ footer{
     <div class="cards">
 
         <div class="card">
-
             <h3>E-Commerce Catalog</h3>
-
-            <p>
-                Developed a simple product catalog website featuring responsive layouts and user-friendly design.
-            </p>
-
+            <p>Developed a responsive product catalog website with clean design and easy navigation.</p>
         </div>
 
         <div class="card">
-
             <h3>Web Calculator</h3>
-
-            <p>
-                Built an interactive web calculator capable of performing basic arithmetic operations.
-            </p>
-
+            <p>Built an interactive calculator capable of performing basic arithmetic operations.</p>
         </div>
 
         <div class="card">
-
             <h3>Portfolio Website</h3>
-
-            <p>
-                Designed and developed personal portfolio websites using modern web technologies.
-            </p>
-
+            <p>Designed and developed personal portfolio websites using HTML, CSS, and JavaScript.</p>
         </div>
 
     </div>
@@ -459,3 +460,4 @@ footer{
 
 </body>
 </html>
+    
