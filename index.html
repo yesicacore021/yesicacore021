@@ -270,6 +270,33 @@ footer{
     font-size:3rem;
 }
 
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.social-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px 30px;
+    background:#fff;
+    color:#2b2b2b;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+    transition:0.3s;
+}
+
+.social-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+}
+
 nav{
     display:none;
 }
@@ -447,13 +474,19 @@ nav{
         Feel free to reach out for collaboration, projects, or simply to say hello.
     </p>
 
-    <a href="mailto:purbayesica59@gmail.com">
-        📧 purbayesica59@gmail.com    
+   <div class="social-links">
+
+    <a href="mailto:purbayesica59@gmail.com" class="social-item">
+        📧 purbayesica59@gmail.com
     </a>
-     <br>
-    <a href="#">
-        https://id.linkedin.com/in/yesica-purba-60222a36b
+
+    <a href="https://id.linkedin.com/in/yesica-purba-60222a36b"
+       target="_blank"
+       class="social-item">
+        💼 Visit My LinkedIn
     </a>
+
+</div>
     
 
 </section>
